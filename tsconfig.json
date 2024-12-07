@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "@useorbis/db-sdk/*": ["node_modules/@useorbis/db-sdk/dist/*"]
+    },
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["ES2020", "DOM"],
+    "types": ["node", "bun-types"],
+    "outDir": "dist",
+    "allowJs": true,
+    "resolveJsonModule": true
+  },
+  "include": ["*.ts", "**/*.ts"],
+  "exclude": ["node_modules"]
+} 

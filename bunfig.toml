@@ -1,0 +1,2 @@
+[env]
+VITE_ORBIS_PRIVATE_KEY = { fromEnv = true } 
